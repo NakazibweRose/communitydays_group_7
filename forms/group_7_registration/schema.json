@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "title": "Journal nickname",
+      "minLength": 1,
+      "maxLength": 240
+    },
+    "focus": {
+      "type": "string",
+      "enum": [
+        "Gratitude",
+        "Confidence",
+        "Calm",
+        "Habits"
+      ],
+      "title": "Reflection focus"
+    },
+    "habit": {
+      "type": "string",
+      "title": "A habit to explore",
+      "minLength": 1,
+      "maxLength": 240
+    }
+  },
+  "required": [
+    "name",
+    "focus",
+    "habit"
+  ]
+}

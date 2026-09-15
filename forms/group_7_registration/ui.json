@@ -1,0 +1,20 @@
+{
+  "type": "VerticalLayout",
+  "elements": [
+    {
+      "type": "Control",
+      "scope": "#/properties/name",
+      "label": "Journal nickname"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/focus",
+      "label": "Reflection focus"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/habit",
+      "label": "A habit to explore"
+    }
+  ]
+}

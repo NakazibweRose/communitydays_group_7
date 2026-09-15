@@ -1,0 +1,55 @@
+{
+  "title": "Psychology App",
+  "theme": "Psychology",
+  "entity": "reflection journal",
+  "plural": "reflection journals",
+  "registerLabel": "Register reflection journal",
+  "followUpLabel": "Add a reflection",
+  "registrationForm": "group_7_registration",
+  "followUpForm": "group_7_followup",
+  "description": "Explore everyday habits and reflections. Fictional examples only; this is not a clinical tool.",
+  "accent": "#6951a4",
+  "background": "#f5f0fc",
+  "columns": [
+    {
+      "key": "name",
+      "label": "Journal nickname"
+    },
+    {
+      "key": "focus",
+      "label": "Reflection focus"
+    },
+    {
+      "key": "habit",
+      "label": "A habit to explore"
+    }
+  ],
+  "registrationFields": [
+    {
+      "key": "name",
+      "label": "Journal nickname"
+    },
+    {
+      "key": "focus",
+      "label": "Reflection focus"
+    },
+    {
+      "key": "habit",
+      "label": "A habit to explore"
+    }
+  ],
+  "followUpFields": [
+    {
+      "key": "mood",
+      "label": "Mood today"
+    },
+    {
+      "key": "energy",
+      "label": "Energy from 0 to 10"
+    },
+    {
+      "key": "reflection",
+      "label": "One thing you noticed"
+    }
+  ]
+}
