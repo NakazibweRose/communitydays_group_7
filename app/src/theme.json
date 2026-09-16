@@ -7,9 +7,9 @@
   "followUpLabel": "Add a reflection",
   "registrationForm": "group_7_registration",
   "followUpForm": "group_7_followup",
-  "description": "Explore everyday habits and reflections. Fictional examples only; this is not a clinical tool.",
-  "accent": "#6951a4",
-  "background": "#f5f0fc",
+  "description": "Welcome to Inner Echo a Kampala community space for reflecting, sharing insights, and following up on what matters.",
+  "accent": "#166534",
+  "background": "#FFFBEB",
   "columns": [
     {
       "key": "name",
